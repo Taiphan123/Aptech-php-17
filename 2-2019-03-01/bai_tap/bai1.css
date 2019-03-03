@@ -1,0 +1,35 @@
+.name-img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.name{
+    position: relative;
+    left: 150px;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    background-color: aqua;
+}
+.img{
+    position: relative;
+    left: 200px;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: burlywood;
+}
+.Introduce{
+    text-align: center;
+    background-color: burlywood;
+}

@@ -1,0 +1,66 @@
+.one-div{
+    display: flex;
+}
+.one-1{
+    width: 30%;
+    background-color: black;
+    height: 50px;
+}
+.one-2{
+    width: 70%;
+    background-color: darkgoldenrod;
+    height: 50px;
+}
+
+.two-div{
+    display: flex;
+    background-color: blue;
+}
+.two-1{
+    background-color: blueviolet;
+    width: 50%;
+    height: 100px;
+}
+
+.two-2{
+    background-color: chartreuse;
+    width: 50%;
+    height: 100px;
+}
+
+.three-div{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    height: 100px;
+}
+
+.three-1{
+    background-color: deeppink;
+    width: 50%;
+    height: 100px;
+}
+.three-2{
+    background-color: rgb(112, 43, 139);
+    width: 50%;
+    height: 100px;
+}
+
+.for-div{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+}
+
+.for-1{
+    background-color: darkslategrey;
+    width: 70%;
+    height: 100px;
+}
+
+.for-2{
+    background-color: rgb(238, 11, 11);
+    width: 30%;
+    height: 100px;
+}
