@@ -1,5 +1,6 @@
 .one-div{
     display: flex;
+    padding-bottom: 50px;
 }
 .one-1{
     width: 30%;
@@ -14,8 +15,9 @@
 
 .two-div{
     display: flex;
-    background-color: blue;
+    padding-bottom: 50px;
 }
+
 .two-1{
     background-color: blueviolet;
     width: 50%;
@@ -30,9 +32,7 @@
 
 .three-div{
     display: flex;
-    width: 100%;
-    background-color: brown;
-    height: 100px;
+    padding-bottom: 50px;
 }
 
 .three-1{
