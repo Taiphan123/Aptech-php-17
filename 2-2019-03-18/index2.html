@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+        <input type="button" value=" Click" onclick="function_tat_bat()">
+        <img  src="pic_bulboff.gif" alt="tat" id="den">
+</body>
+<script>
+        var a=document.getElementById("den");
+    //     function function_bat() {
+    //         console.log(a.src);
+            
+    //     }
+    //     function function_tat() {
+    //         a.src="pic_bulboff.gif";
+    //     }
+        function function_tat_bat() {
+            if(a.src=="http://127.0.0.1:5500/Taiphan/2-2019-03-18/pic_bulboff.gif"){
+                a.src="pic_bulbon.gif";
+            }
+            else{
+            console.log(a.src);
+            a.src="pic_bulboff.gif";
+            }
+        }
+    </script>
+    
+</html>

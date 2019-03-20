@@ -1,0 +1,27 @@
+.Image{
+    
+}
+.Image-Fist{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://i.9mobi.vn/cf/images/2015/03/nkk/hinh-dep-11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Image-Second{
+    height: 300px;
+    width: 100%;
+    background-image: url("http://media.bacninhedu.vn//UploadImages/thcsnamson/thuvienanh/Hoat%20dong%202011/the-gioi-than-tien-460x315.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Image-Thir{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://s19.postimg.cc/e92i7e9qb/56bead607a899.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

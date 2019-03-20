@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+    <link rel="stylesheet" href="../2-2019-03-15/bootstrap.css">
+</head>
+
+<body>
+    <h1 id="demo">Hello world</h1>
+    <input type="button" class=" btn btn-danger" onclick="functiontext()" name="click" value="Click">
+    <input type="button" class=" btn btn-success" onclick="functioncolor()" name="click" value="color red">
+    <input type="button" class=" btn btn-info" onclick="functionbackground()" name="click" value="backgroundColor">
+    <input type="button" class=" btn btn-primary" onclick="functionreturn('Hello')" name="click" value=" return">
+</body>
+<script>
+    function functiontext() {
+        document.getElementById("demo").innerHTML = " Hi ";
+    }
+    function functioncolor() {
+        document.getElementById("demo").style.color = "red";
+    }
+    function functionbackground() {
+        document.getElementById("demo").style.backgroundColor = "black";
+    }
+    function functionreturn(Hello) {
+        document.getElementById("demo").innerHTML = Hello;
+    }
+</script>
+
+</html>
