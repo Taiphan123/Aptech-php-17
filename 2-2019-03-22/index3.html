@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+        <table>
+                <thead>
+                        <tr>
+                                <th>name</th>
+                                <th>price</th>
+                                <th>made in</th>
+                                <th>made by</th>
+                        </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+        </table>
+
+
+
+
+
+        <script>
+                var obj1 = [{
+                                'iphone': {
+                                        "name": 'iPhone X',
+                                        "price": 899,
+                                        "made": {
+                                                "in": 'China',
+                                                "by": 'California'
+                                        },
+                                        "camera": [1.3, 10],
+                                        "discount": null,
+                                        "typeDiscount": null
+                                }
+                        },
+                        {
+                                'samsung': {
+                                        "name": 'Samsung 10+',
+                                        "price": 699,
+                                        "made": {
+                                                "in": 'Vietnam',
+                                                "by": 'Korea'
+                                        },
+                                        "camera": [1.3, 20, 10, 15],
+                                        "discount": 10,
+                                        "typeDiscount": 'percent'
+                                }
+                        }
+                ];
+
+                function obj2() {
+                        this.fistName = "Ly";
+                        this.lastName = "Duc";
+                        this.age = 20;
+                        this.address = "da Nang"
+                        this.all = {
+                                company: 50
+                        }
+
+                }
+
+                
+                var tableBody = document.getElementById("table-body");
+                for (var i = 0; i < obj1.length; i++) {
+                        var tr1 = document.createElement("tr");
+                        var th1 = document.createElement("th");
+                        var textNode1 = document.createTextNode(i + 1);
+                        th1.appendChild(textNode1);
+                        tr1.appendChild(th1);
+
+                        var a = Object.keys(obj1[i]);
+
+                        var td1 = document.createElement("td");
+                        function nameTD(nameTd1, nameTd2, nameTd3, nameTd4){
+                                valueTd1 = document.createTextNode(obj1[i][a[0]].nameTd1);
+                                valueTd2 = document.createTextNode(obj1[i][a[0]].nameTd2);
+                                valueTd3 = document.createTextNode(obj1[i][a[0]].nameTd3);
+                                valueTd4 = document.createTextNode(obj1[i][a[0]].nameTd4);
+                        }
+                        nameTD1 = nameTD(name,price,camera,discount);
+                        console.log(nameTD1);
+                        // nameTD(price);
+                        td1.appendChild();
+                        tr1.appendChild(td1);
+                        tableBody.appendChild(tr1);
+                        
+                        
+                }
+
+                // // a = ['iphone','samsung'];
+                // for (var i = 0; i < a.length; i++) {
+                //   console.log(obj1[a[i]]);
+                // }
+                // for (var i = 0; i < products.length; i++) {
+                //         console.log(i);
+                // }
+                // var h1 = document.createElement("h1");
+                // h1.appendChild(document.createTextNode(products['iphone'].made.by));
+                // document.body.appendChild(h1);
+                // console.log(names);
+        </script>
+
+</body>
+
+</html>

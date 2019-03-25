@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table  style=" width:25%; border: 10px solid rgb(160, 20, 241)">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="insert-row" style=" text-align:center">
+        </tbody>
+    </table>
+
+    <script>
+        var a = document.getElementById("insert-row");
+        var b = ["hoang",2,"tuan",3,"nam",6];
+        var c ;
+        
+        for (var i = 0; i < b.length/2; i++) {
+            c= document.createElement("tr");
+            a.appendChild(c);
+            for (var j = i*2; j < (i*2)+2; j++) {
+            var d = document.createElement("td");
+            c.appendChild(d);
+            var e = document.createTextNode(b[j]);
+            d.appendChild(e);
+            console.log(j);
+            }
+
+        }
+    </script>
+</body>
+
+</html>

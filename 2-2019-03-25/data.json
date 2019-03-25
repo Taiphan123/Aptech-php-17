@@ -1,0 +1,10 @@
+{
+    "Camera":{
+        "name":"FlyCamera",
+        "weight":"20g",
+        "made":{
+            "in": "China",
+            "by" : "Dai Loan"
+        }
+    }
+}

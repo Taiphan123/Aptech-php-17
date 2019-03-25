@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px black solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table style=" width: 50%;">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+</body>
+<script>
+     var a = document.getElementById("table-body");
+
+    console.log("adasd");
+    var j = 4;
+    for (var i = 0; i < 10; i++) { 
+        a.innerHTML = a.innerHTML + ("<tr> <th>" + i + "</th> <td>A</td><td>"+j+"</td> </tr>");
+        j++;
+    }
+    // for(var i=0;i<10;i++){
+    //     console.log(i);
+    //     var tr1 = document.createElement("tr");
+    //     var th1 =document.createElement ("th");
+    //     var td1 =document.createElement ("td");
+    //     var td2 =document.createElement ("td");
+    //     tr1.appendChild(th1);
+    //     tr1.appendChild(td1);
+    //     tr1.appendChild(td2);
+    //     var stt = document.createTextNode(i);
+    //     th1.appendChild(stt);
+    // }
+
+</script>
+
+</html>

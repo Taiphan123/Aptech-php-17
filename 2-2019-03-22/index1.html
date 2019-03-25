@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "name"></h1>
+
+    <script>
+        var hello = ["Tai",20,"Hello",30,"ds",100];
+        var a =4; 
+        var b =5;
+        var c=(a>b)?c=a:c=b;
+        
+        
+        
+        console.log(c);
+        var a = document.getElementById("name");    
+        for(var i=0;i<hello.length;i++){
+            // a.innerHTML+= hello + "<br>";
+            if(i%2===1){
+                a.innerHTML+= hello[i] + "<br>";
+            } else{
+                a.innerHTML+=(hello[i]);
+            }
+        }
+    </script>
+</body>
+</html>

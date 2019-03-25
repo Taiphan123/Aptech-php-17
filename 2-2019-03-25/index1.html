@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../2-2019-03-11/bootstrap.css">
+    <title>Document</title>\
+    <style>
+        /* table,tr,td{
+         border: 1px black;
+         border-collapse: collapse;
+     } */
+    </style>
+</head>
+
+<body>
+    <!-- <h1 id="data"> Data </h1> -->
+
+    <table class=" mb-5">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Weight</th>
+                <th>Made in</th>
+                <th>Made by</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <button class=" btn btn-danger" onclick="Click()">
+        click me
+    </button>
+
+    <script>
+        // 4 buoc
+        function Click() {
+            var xhttp = new XMLHttpRequest(); // buoc 0
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState === 4) {
+                    var a = JSON.parse(xhttp.responseText);
+                    console.log(a);
+                    var b = Object.keys(a);
+                    console.log(b);
+                    //buoc 4
+                    var tableBody = document.getElementById("tableBody");
+                    
+                    for (var i = 0; i < b.length; i++) {
+                        var tr1 = document.createElement("tr");
+                    var td1 = document.createElement("td");
+                    var text = document.createTextNode("");
+                        // document.getElementById("data").innerHTML = .Camera;
+                    }
+                }
+            }
+            xhttp.open("GET", "./data.json");
+            // buoc 1
+            xhttp.send(); // buoc 2
+            // buoc 3 sever
+        }
+    </script>
+</body>
+
+</html>
