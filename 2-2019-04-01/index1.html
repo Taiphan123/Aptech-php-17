@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../2-2019-03-08/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class=" btn btn-info d-block" id="loadID" onclick="loadUser()" style=" display:block">
+        Click Now
+    </button>
+    <div id="spinner" class="spinner-border text-danger" role=" status" style=" display:none">
+        <span class=" sr-only">Loading...</span>
+    </div>
+
+    <script>
+        function loadUser(){
+            var a = document.getElementById("spinner");
+            var b = document.getElementById("loadID");
+            var http = new XMLHttpRequest();
+        http.onreadystatechange = function(){
+            if(http.readyState==1){
+                b.style.display="none";
+                a.style.display = "flex";
+            }
+            if(http.readyState==4){
+                a.style.display="none";
+                b.style.display ="flex";
+            }
+        }
+        xhttp.open("GET", "../2-2019-03-25/data.json");
+            xhttp.send(); //
+        }
+     
+    </script>
+</body>
+</html>

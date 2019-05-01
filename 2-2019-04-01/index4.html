@@ -1,0 +1,236 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../2-2019-03-08/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>carousel</title>
+    <style>
+        .header {
+            height: 70px;
+        }
+
+        .Slide {
+            background-size: cover;
+
+            background-repeat: no-repeat;
+        }
+        .background-img1{
+            background-image: url("http://thuthuat123.com/uploads/2018/01/17/hinh-nen-dep-2018-s8_023640.jpg");
+            background-position: top;
+            width: 100%;
+            height: 100%;
+        }
+
+        .Slide-1 {
+            background-image: url('http://thuthuatphanmem.vn/uploads/2018/09/11/hinh-anh-dep-5_044127233.jpg');
+            background-position: center;
+        }
+
+        .Slide-2 {
+            background-image: url("https://media.laodong.vn/storage/newsportal/Uploaded/ctvkhampha/2016_09_25/an9_TDCP.jpg?w=888&h=592&crop=auto&scale=both");
+            background-position: top;
+        }
+
+        .Slide-3 {
+            background-image: url("https://66.media.tumblr.com/7161b25f43c815ae731bcd8696f9f9c0/tumblr_pnqoyjpJAc1v7y9xxo5_1280.png");
+            background-position: top;
+        }
+
+        .Image {
+            background-image: url('https://pbs.twimg.com/media/Dn2fufFUYAAkaq0.jpg');
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            background-position: center right;
+        }
+
+        .lgImage {
+            height: 200px;
+            width: 350px;
+        }
+
+        .Image-1 {
+            background-image: url("https://farm4.staticflickr.com/3692/19844618980_5e86f53249_k.jpg");
+            background-size: cover;
+        }
+
+        .Image-2 {
+            background-image: url("https://pbs.twimg.com/media/DvRO9iqVYAAbrYd.jpg");
+            background-size: cover;
+        }
+        .width-icon{
+           font-size: 50px;
+            color: blue;
+        }
+        .mr-12{
+            margin-right: 120px;
+        }
+    </style>
+</head>
+
+<body class="h-100">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10 text-left">
+                <h3>Start Bootstrap</h3>
+            </div>
+            <div class="col-2 text-right">
+                <button class=" btn btn-success">
+                    Sign In
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="Slide Slide-1 h-50"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h3>Build A Landing Page For Your Business Or Project And Generate More Leads!</h3>
+                        <div class="row">
+                            <div class="col-6 col-md-9 d-md-flex offset-3 text-center ">
+                                <input class=" form-control w-100" type="text" placeholder="Enter your email">
+                                <button class=" btn btn-danger w-50 d-none d-md-block mr-12">SIGN UP</button>
+                            </div>
+                            <div class="col-6 col-md-3 d-md-none offset-3">
+                                <button class=" btn btn-danger w-100">SIGN UP</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="Slide Slide-2 h-50"></div>
+                <div class="carousel-caption text-left d-none d-md-block">
+                    <h2 class="">菅原茉椰</h5>
+                        <p>宮城E嫁</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="Slide Slide-3 h-50"></div>
+                <div class="carousel-caption text-left d-none d-md-block">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4 text-center">
+                <i class="fas fa-desktop width-icon"></i><br>
+                <b>Fully Responsive</b>
+                <p class=" text-muted">This theme will look great on any device, not matter <br> the size</p>
+            </div>
+
+            <div class="col-4 text-center">
+                <i class="fas fa-layer-group width-icon"></i><br>
+                <b>Boootstrap 4 Ready</b>
+                <p class=" text-muted">Featuring the latest buid of the new Bootstrap 4  <br> framework!</p>
+            </div>
+
+            <div class="col-4 text-center">
+                <i class="fab fa-buysellads width-icon"></i><br>
+                <b>Easy to Use</b>
+                <p class=" text-muted">Featuring the latest buid of the new Bootstrap 4  <br> framework!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row h-25 w-100">
+            <div class="col-6">
+                <b>
+                    Fully Responsive Design
+                </b>
+                <p class=" text-muted">
+                    When you use a theme created by Start Bootstrap, you known that the theme will look great on any device, whenther it's a phonr, tablet or desktop the page will behave reponsively
+                </p>
+            </div>
+            <div class="col-6 p-0">
+                <div class="background-img1">
+
+                </div>
+            </div>
+        </div>
+        <div class="row flex-row-reverse h-25 w-100">
+            <div class="col-6">
+                <b>
+                    Fully Responsive Design
+                </b>
+                <p class=" text-muted">
+                    When you use a theme created by Start Bootstrap, you known that the theme will look great on any device, whenther it's a phonr, tablet or desktop the page will behave reponsively
+                </p>
+            </div>
+            <div class="col-6 pr-0">
+                <div class="background-img1">
+
+                </div>
+            </div>
+        </div>
+        <div class="row h-25 w-100">
+            <div class="col-6">
+                <b>
+                    Fully Responsive Design
+                </b>
+                <p class=" text-muted">
+                    When you use a theme created by Start Bootstrap, you known that the theme will look great on any device, whenther it's a phonr, tablet or desktop the page will behave reponsively
+                </p>
+            </div>
+            <div class="col-6 p-0">
+                <div class="background-img1">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row mb-5">
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                <div class="Image rounded-circle"></div>
+                <p class="h2">Heading</p>
+                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                    </p>
+                    <button class="btn btn-danger">View detail</button>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                <div class="Image rounded-circle"></div>
+                    <p class="h2">Heading</p>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                        </p>
+                        <button class="btn btn-danger">View detail</button>
+                </div>
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                    <div class="Image rounded-circle"></div>
+                        <p class="h2">Heading</p>
+                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                            </p>
+                            <button class="btn btn-danger">View detail</button>
+                    </div>
+        </div>
+        <div class="container">
+            <div class=" Slide Slide-1 h-50">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

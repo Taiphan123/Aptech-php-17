@@ -12,29 +12,264 @@
         .green {
             color: green;
         }
-        .font-size{
-            font-size: 20px;
+
+        .font-size {
+            font-size: 30px;
+        }
+
+        .backgroundimg {
+            background-image: url("../hinhdep/hinhdep2.jpg");
+            height: 300px;
+        }
+
+        .mt-8 {
+            margin-top: 100px;
+        }
+        .text-black{
+            color: black;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-11 d-flex">
+    <!-- <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <a class="navbar-brand" href="#">New</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">HTML</a>
+                        <a class="nav-item nav-link" href="#">CSS</a>
+                        <a class="nav-item nav-link" href="#">JavaScript</a>
+                        <a class="nav-item nav-link" href="#">Php</a>
+                        <a class="nav-item nav-link" href="#">React JS</a>
+                        <a class="nav-item nav-link" href="#">Laravel</a>
+                      </div>
+                    </div>
+            </nav>    
+    </div> -->
+
+    <!-- <div class="col-11 d-flex">
                 <div class="display-4">
                     <b class=" green">News</b>
-                </div> 
+                    <h3 id="menu">
+
+                    </h3>
+                </div>
             </div>
             <div class="col-1 mt-3">
-                    <button class=" green font-size btn">
-                            <i class="fas fa-bars"></i>
+                <button class=" green font-size">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div> -->
+    <!-- </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="d-none d-md-block col-md-2 text-left align-items-center">
+                <button class=" btn btn-outline-danger">SIGN UP NOW</button>
+            </div>
+
+            <div class="col-11 text-left text-md-center col-md-8  ">
+                <div class="display-4">
+                    <b class=" green">News</b>
+                </div>
+            </div>
+            <div class="col-1 d-md-none mt-3">
+                    <button class=" btn btn-success">
+                        <i class="fas fa-bars"></i>
                     </button>
+            </div>
+
+            <div class="d-none d-md-block col-md-2 text-right">
+                <button class=" btn btn-outline-success">SIGN IN</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="d-none col-md-12 d-md-block offset-3">
+                <ul class="nav nav-pills">
+                    <li><a class=" text-black m-2" href=""><i class="fas fa-angle-left"></i></a> </li>
+                    <li><a class=" text-black m-2" href="">Home</a> </li>
+                    <li><a class=" text-black m-2" href="">HTML</a> </li>
+                    <li><a class=" text-black m-2" href="">CSS</a> </li>
+                    <li><a class=" text-black m-2" href="">JavaScript</a> </li>
+                    <li><a class=" text-black m-2" href="">PHP</a> </li>
+                    <li><a class=" text-black m-2" href="">React JS</a> </li>
+                    <li><a class=" text-black m-2" href="">LAravel</a> </li>
+                    <li><a class=" text-black m-2" href=""><i class="fas fa-angle-right"></i></a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class=" container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card text-white" style="width:99%; height: 295px;">
+                    <div class="backgroundimg">
+                        <div class="card-body">
+                            <h5 class="card-title mt-8">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card" style="width: 99%;">
+                    <div class="card-header">
+                        Hot new
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Lorem ipsum dolor sit am</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 text-left">
+                <button class=" btn btn-success">
+                    Feature
+                </button>
+            </div>
+            <div class="col-6 text-muted text-right">
+                <h5>MORE ></h5>
             </div>
         </div>
 
     </div>
+    <div class="container mt-4 mb-4">
+        <div class="row">
+            <div class="col-6">
+                <div class="card" style="width: 99%;">
+                    <img src="../hinhdep/hinhdep2.jpg" class="card-img-top" alt="hinhdep">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5>
+                            This is a wider card with s...
+                        </h5>
+                        <p class="card-text text-muted">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card" style="width:99%;">
+                    <img src="../hinhdep/hinhdep2.jpg" class="card-img-top" alt="hinhdep">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5>
+                            This is a wider card with s...
+                        </h5>
+                        <p class="card-text text-muted">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <hr>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-6 text-left">
+                <button class=" btn btn-success">
+                    Hot
+                </button>
+            </div>
+            <div class="col-6 text-muted text-right">
+                <h5>MORE ></h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-6">
+                <div class="card" style="width: 99%;">
+                    <img src="../hinhdep/hinhdep2.jpg" class="card-img-top" alt="hinhdep">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5>
+                            This is a wider card with s...
+                        </h5>
+                        <p class="card-text text-muted">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card" style="width:99%;">
+                    <img src="../hinhdep/hinhdep2.jpg" class="card-img-top" alt="hinhdep">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5>
+                            This is a wider card with s...
+                        </h5>
+                        <p class="card-text text-muted">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <h1>Hệ thống đào tạo CNTT Quốc Tế Aptech</h1>
+                <h3>Địa chỉ: Tòa nhà VNPT, 38 Yên Bái, Quận Hải Châu, Thành Phố Đà Nẵng</h3>
+                <h3>
+                    Điện thoại:0236.3.779.779 - Fax:0236.3.779.555
+                </h3>
+                <h3>
+                    Email:tuyensinh@softech.vn
+                </h3>
+                <img style="width:50%" src="../hinhdep/hinhdep4.jpg" alt="">
+                <h3 class="text-muted">
+                    Aptech PHP - 2018
+                </h3>
+            </div>
+            <div class="col-2">
+                <h1>About</h1>
+                <ul>
+                    <li>
+                        <h3 class=" text-muted">Team</h3>
+                    </li>
+                    <li>
+                        <h3 class=" text-muted">Location</h3>
+                    </li>
+                    <li>
+                        <h3 class=" text-muted">Privacy</h3>
+                    </li>
+                    <li>
+                        <h3 class=" text-muted">Terms</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
 </body>
 
 </html>
