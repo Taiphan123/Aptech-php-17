@@ -1,0 +1,55 @@
+.background-logo{
+    background-image: url("logo.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.background-nhadat{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnSv1xNV3ThiADBszobLODulAh37Nje3OSGSUGdV_eyEM4WMUc"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.h1-tieude{
+    padding-top:10px;font-size: 16px;color: #055699;font-weight:bold;
+}
+.span-vitri{
+    font-weight:bold;font-size:14px;
+}
+.a-link{
+    color: black;
+    list-style: none;
+    font-size: 15px;
+}
+a:hover{
+    color: orangered !important;
+}
+a:link{
+    color: white;
+    text-decoration: none !important;
+}
+#thongtinmota{
+    font-weight:bold;
+    font-size:14px;
+}
+.image {
+    background-image: url("https://anhdephd.com/wp-content/uploads/2017/05/hinh-nen-phim-angry-bird-dep-nhat.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .khoang_trong{
+    clear:both;
+    height:20px;
+  }
+.bg-green{
+    background-color: olivedrab;
+}
+.text-green{
+    color: chartreuse;
+}
+.table{
+    border: 1px solid #ecf0f1;
+}
+   
